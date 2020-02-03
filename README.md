@@ -3,7 +3,7 @@
     1.마크다운이란?
     2.마크다운의 사용법과 실습
     3.깃헙으로 보내기
-### 1. 마크다운이란?
+# 1. 마크다운이란?
 Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 
 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 
 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. 마크다운이 최근 각광받기 시작한 이유는 깃헙(https://github.com) 
@@ -121,3 +121,14 @@ __강조4__
 그러니 줄바꿈이 됐네요!!   
 저는 띄어쓰기를 하지 않았습니다.
 줄바꿈이 안됐네요. 
+# 3.깃헙으로 보내기
+* 여기부터 README.md가 아닌 Terminal에서 작성해야 한다.
+````
+1. git add .   
+    * 변경된 파일을 storage에 추가
+2. git commit -m "메세지 내용"   
+    * add한 파일을 local repository에 저장
+3. git push origin master
+    * local repository를 remote repository에 업로드
+    * master는 branch 이름이다.master가 아닌 다른 branch로 push 하고 싶으면, 
+      아래와 같이 master를 특정 브랜치명으로 바꾸면 돤다.
