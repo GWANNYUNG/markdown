@@ -81,7 +81,3 @@ HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간�
         * 3번째
         
 
-# `pycharm`,`python`
-```python
-print("Hello World")
-```
